@@ -1,5 +1,8 @@
 import mobileBannerImg from "../public/assets/images/image-web-3-mobile.jpg";
 import desktopBannerImg from "../public/assets/images/image-web-3-desktop.jpg";
+import retroPCImg from "../public/assets/images/image-retro-pcs.jpg";
+import laptopImg from "../public/assets/images/image-top-laptops.jpg";
+import gamingImg from "../public/assets/images/image-gaming-growth.jpg";
 
 export const navLinks = [
   {
@@ -54,18 +57,18 @@ export const popularArticles = [
     rank: "01",
     title: "Reviving Retro PCs",
     subhead: "What happens when old PCs are given modern upgrades?",
-    image: "../public/assets/image-retro-pcs.jpg",
+    image: retroPCImg,
   },
   {
     rank: "02",
     title: "Top 10 Laptops of 2022",
     subhead: "Our best picks for various needs and budgets.",
-    image: "../public/assets/image-top-laptops.jpg",
+    image: laptopImg,
   },
   {
     rank: "03",
     title: "The Growth of Gaming",
     subhead: "How the pandemic has sparked fresh opportunities.",
-    image: "../public/assets/image-gaming-growth.jpg",
+    image: gamingImg,
   },
 ];

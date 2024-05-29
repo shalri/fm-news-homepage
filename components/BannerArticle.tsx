@@ -19,9 +19,9 @@ export default function Main() {
       <p className="mt-4 text-body leading-relaxed text-nh-dark-grayish-blue">
         {articleIntro}
       </p>
-      <button className="leading-1 mt-6 w-[185px] bg-nh-soft-red pb-3 pt-4 text-[0.90rem] font-semibold uppercase tracking-[0.2rem]">
+      <a className="leading-1 transition-color mt-6 w-[185px] bg-nh-soft-red pb-3 pt-4 text-center text-[0.90rem] font-semibold uppercase tracking-[0.2rem] duration-300 hover:bg-nh-very-dark-blue hover:text-nh-off-white">
         Read More
-      </button>
+      </a>
     </section>
   );
 }
