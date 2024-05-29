@@ -3,7 +3,7 @@ import { popularArticles } from "./data";
 
 export default function PopularArticles() {
   return (
-    <section className="mb-[50px] mt-[70px]">
+    <section className="mb-[50px] mt-[70px] sm:col-span-3 sm:grid sm:grid-cols-3 sm:gap-x-8">
       {popularArticles.map((article) => (
         <article className="mb-7 flex items-start gap-6" key={article.rank}>
           <div className="h-[130px] max-w-[100px]">

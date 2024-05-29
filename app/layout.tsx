@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} flex min-h-screen flex-col bg-nh-off-white`}
+        className={`${inter.className} mx-auto flex min-h-screen max-w-[1166px] flex-col bg-nh-off-white sm:px-3`}
       >
         {children}
       </body>

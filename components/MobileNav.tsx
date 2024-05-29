@@ -19,7 +19,12 @@ export default function ModbileNav() {
           <ul className="min-h-screen pt-32 text-lg leading-[3rem]">
             {navLinks.map((link) => (
               <ol key={link.page}>
-                <a href={link.pageUrl}>{link.page}</a>
+                <a
+                  href={link.pageUrl}
+                  className="transition-colors duration-300 hover:text-nh-soft-red"
+                >
+                  {link.page}
+                </a>
               </ol>
             ))}
           </ul>

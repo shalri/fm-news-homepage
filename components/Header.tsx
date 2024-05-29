@@ -5,7 +5,7 @@ import MobileNav from "./MobileNav";
 export default function Header() {
   return (
     <header className="flex w-full items-center justify-between px-4 py-8">
-      <h1 className="relative h-[30px] w-[50px] text-lg font-bold">
+      <h1 className="relative h-[30px] w-[50px] text-lg font-bold sm:h-[42px] sm:w-[64px]">
         <Image
           src="./assets/images/logo.svg"
           alt="logo"
@@ -14,11 +14,16 @@ export default function Header() {
         />
       </h1>
       <div>
-        <nav className="hidden sm:flex">
-          <ul className="flex gap-4 text-lg">
+        <nav className="hidden sm:block">
+          <ul className="flex gap-10 text-lg">
             {navLinks.map((link) => (
               <ol key={link.page}>
-                <a href={link.pageUrl}>{link.page}</a>
+                <a
+                  href={link.pageUrl}
+                  className="text-body text-nh-dark-grayish-blue transition-colors duration-300 hover:text-nh-soft-red"
+                >
+                  {link.page}
+                </a>
               </ol>
             ))}
           </ul>
