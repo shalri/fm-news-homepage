@@ -7,7 +7,7 @@ export default function Header() {
     <header className="flex w-full items-center justify-between px-4 py-8">
       <h1 className="relative h-[30px] w-[50px] text-lg font-bold">
         <Image
-          src="/assets/images/logo.svg"
+          src="./assets/images/logo.svg"
           alt="logo"
           fill
           className="aspect-auto"

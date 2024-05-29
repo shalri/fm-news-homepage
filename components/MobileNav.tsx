@@ -7,7 +7,7 @@ export default function ModbileNav() {
     <Sheet>
       <SheetTrigger>
         <Image
-          src="/assets/images/icon-menu.svg"
+          src="./assets/images/icon-menu.svg"
           alt="close menu"
           width={40}
           height={40}
