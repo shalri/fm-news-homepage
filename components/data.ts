@@ -1,25 +1,36 @@
+import mobileBannerImg from "../public/assets/images/image-web-3-mobile.jpg";
+import desktopBannerImg from "../public/assets/images/image-web-3-desktop.jpg";
+
 export const navLinks = [
   {
     page: "Home",
-    pagUrl: "#",
+    pageUrl: "#",
   },
   {
     page: "New",
-    pagUrl: "#",
+    pageUrl: "#",
   },
   {
     page: "Popular",
-    pagUrl: "#",
+    pageUrl: "#",
   },
   {
     page: "Trending",
-    pagUrl: "#",
+    pageUrl: "#",
   },
   {
     page: "Categories",
-    pagUrl: "#",
+    pageUrl: "#",
   },
 ];
+
+export const bannerArticle = {
+  articleTitle: "The Bright Future of Web 3.0?",
+  articleIntro:
+    "We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?",
+  bannerMobileImg: mobileBannerImg,
+  bannerDesktopImg: desktopBannerImg,
+};
 
 export const newArticles = [
   {
@@ -43,15 +54,18 @@ export const popularArticles = [
     rank: "01",
     title: "Reviving Retro PCs",
     subhead: "What happens when old PCs are given modern upgrades?",
+    image: "../public/assets/image-retro-pcs.jpg",
   },
   {
     rank: "02",
     title: "Top 10 Laptops of 2022",
     subhead: "Our best picks for various needs and budgets.",
+    image: "../public/assets/image-top-laptops.jpg",
   },
   {
     rank: "03",
     title: "The Growth of Gaming",
     subhead: "How the pandemic has sparked fresh opportunities.",
+    image: "../public/assets/image-gaming-growth.jpg",
   },
 ];

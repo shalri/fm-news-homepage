@@ -1,13 +1,17 @@
-import Header from "./components/Header";
-import SandBox from "./components/Sandbox";
-import Footer from "./components/Footer";
+import Header from "../components/Header";
+import BannerArticle from "../components/BannerArticle";
+import Footer from "../components/Footer";
+import NewArticles from "@/components/NewArticles";
+import PopularArticles from "@/components/PopularArticles";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <main className="flex flex-grow flex-col items-center justify-center p-24">
-        <SandBox />
+      <main className="grid px-4">
+        <BannerArticle />
+        <NewArticles />
+        <PopularArticles />
       </main>
       <Footer />
     </>
