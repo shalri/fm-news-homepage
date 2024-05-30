@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "次に(tsugini) | FScode",
-  description: "A basic NextJS template for Frontend Mentor Challenges",
+  title: "Frontend Mentor | FScode Shalri",
+  description: "Solution for a Frontend Mentor News Homepage Challenge",
 };
 
 export default function RootLayout({

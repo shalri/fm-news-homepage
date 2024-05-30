@@ -2,7 +2,7 @@ import { newArticles } from "./data";
 
 export default function NewArticles() {
   return (
-    <section className=" mt-[70px] bg-nh-very-dark-blue px-5 py-7 sm:mt-0">
+    <section className="mt-[70px] bg-nh-very-dark-blue px-5 py-7 sm:mt-0 sm:self-start">
       <h2 className=" text-4xl font-semibold text-nh-soft-orange">New</h2>
       <div className="divide-y divide-nh-grayish-blue/40">
         {newArticles.map((newArticle, i) => (

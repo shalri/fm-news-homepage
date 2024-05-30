@@ -13,7 +13,7 @@ export default function PopularArticles() {
               className="object-contain"
             />
           </div>
-          <div>
+          <div className="-mt-3">
             <h3 className="text-[2.175rem] font-semibold text-nh-soft-red">
               {article.rank}
             </h3>

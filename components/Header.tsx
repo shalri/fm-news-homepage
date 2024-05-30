@@ -4,7 +4,7 @@ import MobileNav from "./MobileNav";
 
 export default function Header() {
   return (
-    <header className="flex w-full items-center justify-between px-4 py-8">
+    <header className="flex w-full items-center justify-between px-4 py-8 sm:pb-8 sm:pt-16">
       <h1 className="relative h-[30px] w-[50px] text-lg font-bold sm:h-[42px] sm:w-[64px]">
         <Image
           src="./assets/images/logo.svg"
@@ -13,7 +13,7 @@ export default function Header() {
           className="aspect-auto"
         />
       </h1>
-      <div>
+      <div className="sm:pt-6">
         <nav className="hidden sm:block">
           <ul className="flex gap-10 text-lg">
             {navLinks.map((link) => (

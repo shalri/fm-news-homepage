@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="grid gap-x-8 px-4 sm:grid-cols-3">
+      <main className="grid gap-x-8 px-4 sm:grid-cols-3 sm:self-center">
         <BannerArticle />
         <NewArticles />
         <PopularArticles />
