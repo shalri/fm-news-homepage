@@ -21,7 +21,7 @@ export default function Main() {
           />
         </picture>
       </div>
-      <h1 className="text-[2.608rem] font-bold leading-[1.0] text-nh-very-dark-blue sm:col-span-2 sm:text-[3.5rem] lg:col-span-1">
+      <h1 className="text-[2.608rem] font-bold leading-[1.0] text-nh-very-dark-blue sm:col-span-2 sm:mb-8 sm:text-[3.5rem] lg:col-span-1">
         {articleTitle}
       </h1>
       <div className="sm:col-span-2 lg:col-span-1">
