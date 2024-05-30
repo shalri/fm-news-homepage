@@ -17,14 +17,14 @@ export default function Header() {
         <nav className="hidden sm:block">
           <ul className="flex gap-10 text-lg">
             {navLinks.map((link) => (
-              <ol key={link.page}>
+              <li key={link.page}>
                 <a
                   href={link.pageUrl}
                   className="text-body text-nh-dark-grayish-blue transition-colors duration-300 hover:text-nh-soft-red"
                 >
                   {link.page}
                 </a>
-              </ol>
+              </li>
             ))}
           </ul>
         </nav>
